@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/four-card-feature-scetion-oUGOA40TLT)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/single-price-grid-component-cuKKFvth2L)
 - Live Site URL: [Github](https://kinjames.github.io/price-component/)
 
 ## My process
