@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 100px auto;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    box-shadow: 0 0px 4px 0px #000;
+    border-radius: 10px;
+}
+
+
+.col1,.col4,.col3 {
+    padding: 30px;
+}
+
+.col1,.col2{
+    width: 100%;
+}
+.col3,.col4{
+    width: 50%;
+}
+
+.col2{
+    display: flex;
+}
+
+.col1 {
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.col3{
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
+}
+
+.col4 {
+    background-color: hsl(179, 62%, 50%);
+    border-radius: 0 0 10px 0;
+}
+
+
+
+.header {
+    color: hsl(179, 62%, 43%);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.para1 {
+    color: hsl(71, 73%, 54%);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.para2 {
+    color: hsl(218, 22%, 67%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.col1,.col2 {
+    min-height: 100%;
+}
+
+.header2 {
+    font-size: 16px;
+    color: hsl(204, 43%, 100%);
+    margin-bottom: 20px;
+}
+
+.para3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+span {
+    color: hsl(204, 43%, 93%);
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+}
+
+.para4 {
+    font-size: 14px;
+    color:  hsl(204, 43%, 93%);
+    margin-bottom: 30px;
+}
+
+.para5 {
+    color:  hsl(204, 43%, 93%);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn {
+    font-family: inherit;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color:  hsl(204, 43%, 93%);
+    font-size: 16px;
+    box-shadow: 0 0px 4px 0px #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    font-size: 16px; 
+}
+
+@media only screen and (max-width:1023px) {
+    .container,body,.col1,.col2,.col3,.col4{
+        width: 100%;
+    }
+}
+
+
+/* larger phones to smaller tablets */
+@media only screen and (max-width:767px) {
+    .container,body,.col1,.col2,.col3,.col4{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .container,body,.col1,.col2,.col3,.col4{
+        width: 100%;
+    }
+
+    .col2{
+        flex-direction: column;
+    }
+
+    .col3 {
+        border-radius: 0 0 0 0 ;
+    }
+
+    .col4 {
+        background-color: hsl(179, 62%, 50%);
+        border-radius: 0 0 10px 10px;
+    }
+    
+}
+
+
+
